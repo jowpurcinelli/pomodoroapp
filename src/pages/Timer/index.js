@@ -34,7 +34,7 @@ export default function Timer() {
     isPlaying,
   ]);
   const onAnimationComplete = useCallback(() => {
-    //the following - if is programmed to be called only in a different time, for presentations purposes. Change it for normal usage.
+    //the following "if" is programmed to be called only in a different time, for presentations purposes. Change it for normal usage.
     if (secondsEllapsed / 60 > 2) {
       setSecondsEllapsed(0);
       setIsPlaying(false);
