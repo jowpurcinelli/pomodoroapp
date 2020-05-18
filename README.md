@@ -4,6 +4,10 @@ The Pomodoro Technique is a time management method developed by Francesco Cirill
 
 ## Executar app
 
+This is a React Native App
+Since it is an app made for mobiles, I am gonna be using the expo  client!
+  ------(Will be providing an external link for better providing soon)------
+
 1. Install `expo-cli` globally with NPM or Yarn;
 2. `git clone`  this repository;
 3. Acess the repository and execut `yarn` to install dependencies;
