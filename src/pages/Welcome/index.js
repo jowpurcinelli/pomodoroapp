@@ -14,10 +14,15 @@ export default function Welcome() {
     navigation,
   ]);
 
+  //in the following logo image I will be implementing a Bodymovin effect, that uses a json exported file of a  After Effects file. 
+
+
   return (
     <View style={styles.container}>
+      
+
       <Image
-        style={{ width:250, height:150 }}
+        style={{ width:450, height:350 }}
         source={require("../../../assets/splash.png")}
       />
       <Text style={styles.text}>Stay focused for some time!</Text>

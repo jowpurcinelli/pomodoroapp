@@ -56,7 +56,7 @@ export default function Timer() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Pomodora</Text>
+      <Text style={styles.title}>Pomodoro</Text>
       <AnimatedCircularProgress
         size={260}
         width={5}
