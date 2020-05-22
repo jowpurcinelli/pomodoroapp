@@ -2,10 +2,10 @@
 The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks.
 
 
-## Executar app
+## Execute the app:
 
-This is a React Native App
-Since it is an app made for mobiles, I am gonna be using the expo  client!
+This is an app developed in the React Native language.
+Since it is an app made for mobiles, I am using the expo client!
   ------(Will be providing an external link for better providing soon)------
 
 1. Install `expo-cli` globally with NPM or Yarn;
