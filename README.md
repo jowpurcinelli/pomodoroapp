@@ -22,3 +22,20 @@ App under development********
 
 
 
+That's My first React Native real Project, where I am using technologies I'm learning at the moment.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Next Updates coming soon: 
+  - New feature that will allow the user to create a ToDo item or list.
+  - Alarm
+  - Reminder
+  - Schedule
+  - NotePad
+  - New app design
+  - New Images
+  - Some interaction with `Spotify`
+  - Who knows?...
+
+
