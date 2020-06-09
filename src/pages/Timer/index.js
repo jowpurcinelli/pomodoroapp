@@ -35,7 +35,7 @@ export default function Timer() {
   ]);
   const onAnimationComplete = useCallback(() => {
     //the following "if" is programmed to be called only in a different time, for presentations purposes. Change it for normal usage.
-    if (secondsEllapsed / 60 > 2) {
+    if (secondsEllapsed / 2 > 2) {
       setSecondsEllapsed(0);
       setIsPlaying(false);
       navigation.navigate("Congrats");

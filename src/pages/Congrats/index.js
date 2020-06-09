@@ -25,7 +25,11 @@ export default function Congrats() {
 
 
       
-      
+<Button
+        text=""
+        style={styles.button}
+        onPress={navigateToTimer}
+      />      
       <Button
         text="I'm ready to focus again"
         style={styles.button}

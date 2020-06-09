@@ -14,6 +14,12 @@ export default function Welcome() {
     navigation,
   ]);
 
+  const navigateToSchedule = useCallback(() => navigation.navigate("Home"), [
+    navigation,
+  ]);
+
+
+
   //in the following logo image I will be implementing a Bodymovin effect, that uses a json exported file of a  After Effects file. 
 
 
@@ -29,9 +35,17 @@ export default function Welcome() {
       <Button
         text="Let's go for it!"
         icon="arrow-right"
-        style={styles.button}
+        style={styles.buttonGo}
         onPress={navigateToTimer}
       />
+      <Button
+        text="Go to My Schedule"
+        icon="arrow-left"
+        style={styles.buttonschedule}
+        onPress={navigateToSchedule}
+      />
+
+
     </View>
   );
 }
