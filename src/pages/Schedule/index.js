@@ -5,16 +5,20 @@ import { useNavigation } from "@react-navigation/native";
 import Button from "../../components/Button";
 import { styles } from "./styles";
 
-export default function Home() {
+export default function Schedule() {
   const navigation = useNavigation();
 
-  const navigateToWelcome = useCallback(() => navigation.navigate("Welcome"), [
+  const navigateToSchedule = useCallback(() => navigation.navigate("Schedule"), [
     navigation,
   ]);
 
 
   return (
     <View style={styles.container}>
+      
+      
+      
+      
       <Text style={styles.text}>Under development :)</Text>
       <Button
         text="Go back!"

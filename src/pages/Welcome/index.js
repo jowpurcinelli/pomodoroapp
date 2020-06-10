@@ -14,7 +14,7 @@ export default function Welcome() {
     navigation,
   ]);
 
-  const navigateToSchedule = useCallback(() => navigation.navigate("Home"), [
+  const navigateToSchedule = useCallback(() => navigation.navigate("Schedule"), [
     navigation,
   ]);
 

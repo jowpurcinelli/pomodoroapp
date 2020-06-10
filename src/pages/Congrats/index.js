@@ -14,6 +14,10 @@ export default function Congrats() {
     navigation,
   ]);
 
+  const navigateToSchedule = useCallback(() => navigation.navigate("Schedule"), [
+    navigation,
+  ]);
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Great work!</Text>
@@ -25,10 +29,10 @@ export default function Congrats() {
 
 
       
-<Button
-        text=""
+      <Button
+        text="Go to my Schedule"
         style={styles.button}
-        onPress={navigateToTimer}
+        onPress={navigateToSchedule}
       />      
       <Button
         text="I'm ready to focus again"
