@@ -5,6 +5,8 @@ import { AppLoading } from "expo";
 
 import * as Font from "expo-font";
 
+///the following callbackAsync  was made to call the  desired fonts
+
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
 
