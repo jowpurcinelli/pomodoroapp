@@ -33,10 +33,11 @@ function Routes() {
         ...TransitionPresets.SlideFromRightIOS,
       }}
     >
-      <AppStack.Screen name="Schedule" component={Schedule} />
+     
       <AppStack.Screen name="Welcome" component={Welcome} />
       <AppStack.Screen name="Timer" component={Timer} />
       <AppStack.Screen name="Congrats" component={Congrats} />
+      <AppStack.Screen name="Schedule" component={Schedule} />
     </AppStack.Navigator>
   );
 }
