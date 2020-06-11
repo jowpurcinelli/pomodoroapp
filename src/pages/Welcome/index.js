@@ -20,7 +20,7 @@ export default function Welcome() {
 
 
 
-  //in the following logo image I will be implementing a Bodymovin effect, that uses a json exported file of a  After Effects file. 
+  //in the following logo image I will be implementing a "Bodymovin" effect, that uses a json exported file of a  After Effects file. 
 
 
   return (
