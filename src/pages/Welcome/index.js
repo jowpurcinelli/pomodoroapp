@@ -25,7 +25,12 @@ export default function Welcome() {
 
   return (
     <View style={styles.container}>
-      
+            <Button
+        text="Go to My Schedule"
+        icon="arrow-left"
+        style={styles.buttonschedule}
+        onPress={navigateToSchedule}
+      />
 
       <Image
         style={{ width:450, height:350 }}
@@ -38,12 +43,7 @@ export default function Welcome() {
         style={styles.buttonGo}
         onPress={navigateToTimer}
       />
-      <Button
-        text="Go to My Schedule"
-        icon="arrow-left"
-        style={styles.buttonschedule}
-        onPress={navigateToSchedule}
-      />
+
 
 
     </View>

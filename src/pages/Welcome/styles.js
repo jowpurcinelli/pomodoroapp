@@ -31,15 +31,15 @@ export const styles = StyleSheet.create({
     right: 25,
   },
   buttonschedule: {
-    backgroundColor: "#100000",
+    backgroundColor: "#023038",
     paddingHorizontal: 25,
+    fontSize: 12,
     textAlign: "center",
-    paddingVertical: 15,
+    paddingVertical: 10,
     flexDirection: "row",
-    justifyContent: "center",
+    justifyContent: "flex-end",
     borderRadius: 90,
-    
-    bottom: 75,
-    right: 25,
+    bottom: 25,
+    right: 45,
   },
 });
