@@ -9,7 +9,7 @@ import {
 const AppStack = createStackNavigator();
 
 
-import Home from "./pages/Schedule";
+import Schedule from "./pages/Schedule";
 import TodoList from "./pages/TodoList";
 import Welcome from "./pages/Welcome";
 import Timer from "./pages/Timer";
@@ -33,7 +33,7 @@ function Routes() {
         ...TransitionPresets.SlideFromRightIOS,
       }}
     >
-      <AppStack.Screen name="Home" component={Home} />
+      <AppStack.Screen name="Schedule" component={Schedule} />
       <AppStack.Screen name="Welcome" component={Welcome} />
       <AppStack.Screen name="Timer" component={Timer} />
       <AppStack.Screen name="Congrats" component={Congrats} />

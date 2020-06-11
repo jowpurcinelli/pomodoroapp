@@ -8,10 +8,10 @@ import { styles } from "./styles";
 export default function Schedule() {
   const navigation = useNavigation();
 
-  const navigateToSchedule = useCallback(() => navigation.navigate("Schedule"), [
+
+  const navigateToWelcome = useCallback(() => navigation.navigate("Welcome"), [
     navigation,
   ]);
-
 
   return (
     <View style={styles.container}>
@@ -26,6 +26,7 @@ export default function Schedule() {
         style={styles.button}
         onPress={navigateToWelcome}
       />
+
     </View>
   );
 }

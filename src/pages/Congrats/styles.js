@@ -25,4 +25,13 @@ export const styles = StyleSheet.create({
     paddingVertical: 15,
     borderRadius: 50,
   },
+  button2: {
+    position: "relative",
+    backgroundColor: "#100000",
+    bottom: 125, 
+    right: 25,
+    paddingHorizontal: 35,
+    paddingVertical: 15,
+    borderRadius: 50,
+  },
 });

@@ -20,6 +20,14 @@ export default function Congrats() {
 
   return (
     <View style={styles.container}>
+            <Button
+        text="Go to my Schedule"
+        style={styles.button2}
+        onPress={navigateToSchedule}
+      />      
+      
+      
+      
       <Text style={styles.title}>Great work!</Text>
       <Text style={styles.text}>It’s time for some coffe now!</Text>
       <Image
@@ -29,11 +37,7 @@ export default function Congrats() {
 
 
       
-      <Button
-        text="Go to my Schedule"
-        style={styles.button}
-        onPress={navigateToSchedule}
-      />      
+
       <Button
         text="I'm ready to focus again"
         style={styles.button}

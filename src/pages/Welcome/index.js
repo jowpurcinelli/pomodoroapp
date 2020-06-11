@@ -33,7 +33,7 @@ export default function Welcome() {
       />
       <Text style={styles.text}>Stay focused for some time!</Text>
       <Button
-        text="Let's go for it!"
+        text="I'm ready to focus!"
         icon="arrow-right"
         style={styles.buttonGo}
         onPress={navigateToTimer}
