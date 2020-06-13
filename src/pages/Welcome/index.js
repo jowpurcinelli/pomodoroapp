@@ -17,6 +17,9 @@ export default function Welcome() {
   const navigateToSchedule = useCallback(() => navigation.navigate("Schedule"), [
     navigation,
   ]);
+  const navigateToTodolist = useCallback(() => navigation.navigate("Todolist"), [
+    navigation,
+  ]);
 
 
 
@@ -25,12 +28,7 @@ export default function Welcome() {
 
   return (
     <View style={styles.container}>
-            <Button
-        text="Go to My Schedule"
-        icon="arrow-left"
-        style={styles.buttonschedule}
-        onPress={navigateToSchedule}
-      />
+            
 
       <Image
         style={{ width:450, height:350 }}
@@ -38,10 +36,23 @@ export default function Welcome() {
       />
       <Text style={styles.text}>Stay focused for some time!</Text>
       <Button
+        text="Go to My Schedule"
+        icon="arrow-left"
+        style={styles.buttonschedule}
+        onPress={navigateToSchedule}
+      />
+      <Button
         text="I'm ready to focus!"
         icon="arrow-right"
         style={styles.buttonGo}
         onPress={navigateToTimer}
+      />
+    
+            <Button
+        text="My Todo List!"
+        icon="arrow-left"
+        style={styles.buttontodolist}
+        onPress={navigateToTodolist}
       />
 
 

@@ -32,6 +32,20 @@ export const styles = StyleSheet.create({
   },
   buttonschedule: {
     backgroundColor: "#023038",
+    paddingHorizontal: 15,
+    fontSize: 12,
+    textAlign: "center",
+    paddingVertical: 10,
+    flexDirection: "row",
+    justifyContent: "flex-end",
+    borderRadius: 90,
+    bottom: 95,
+    right: 45,
+    position: "absolute",
+    
+  },
+  buttontodolist: {
+    backgroundColor: "#123038",
     paddingHorizontal: 25,
     fontSize: 12,
     textAlign: "center",
@@ -39,7 +53,8 @@ export const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "flex-end",
     borderRadius: 90,
-    bottom: 25,
+    bottom: 155,
     right: 45,
+    position: "absolute",
   },
 });

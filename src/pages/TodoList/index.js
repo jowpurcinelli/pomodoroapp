@@ -1,77 +1,62 @@
-//This TodoList is under development and will be using part of the code above:
+import React, {useCallback} from "react";
+import {StyleSheet, Text, View } from "react-native";
+import colors from "../../components/Colors/Colors";
+import { useNavigation } from "@react-navigation/native";
+// import {styles} from  "./styles"
 
+import Button from "../../components/Button";
 
-
-/*
-import React, { Component } from "react";
-import {styles} from  "./styles";
-import {useNavigation} from "@react-navigation/native"
-
-
-class App extends Component {
-  state = {
-    tasks: [],
-    taskName: ""
-  };
-  handleChange = event => {
-    const target = event.target;
-    const value = target.value;
-    this.setState({
-      taskName: value
-    });
-  };
-  copyTab = tab => {
-    const newTab = [];
-    for (let i = 0; i < tab.length; i++) {
-      newTab.push(tab[i]);
-    }
-
-
-
-
-    return newTab;
-  };
-  handleSubmit = event => {
-    event.preventDefault();
-    const newTasks = this.copyTab(this.state.tasks);
-    newTasks.push({
-      name: this.state.taskName,
-      isDone: false
-    });
-
-    this.setState({
-      taskName: "",
-      tasks: newTasks
-    });
-  };
-  handleClick = name => {
-    const newTasks = this.copyTab(this.state.tasks);
-    for (let i = 0; i < newTasks.length; i++) {
-      if (newTasks[i].name === name) {
-        if (newTasks[i].isDone === true) {
-          newTasks[i].isDone = false;
-        } else {
-          newTasks[i].isDone = true;
-        }
-        break;
-      }
-    }
-
-    this.setState({
-      tasks: newTasks
-    });
-  };
-  handleDelete = name => {
-    const newTasks = [];
-    for (let i = 0; i < this.state.tasks.length; i++) {
-      if (this.state.tasks[i].name !== name) {
-        newTasks.push(this.state.tasks[i]);
-      }
-    }
-
-    this.setState({
-      tasks: newTasks
-    });
-  };
+export default function Todolist  () {
   
-  */
+    const navigation = useNavigation();
+
+
+    const navigateToWelcome = useCallback(() => navigation.navigate("Welcome"), [
+      navigation,
+    ]);
+  
+  
+  
+    return (
+      <View style={ztyles.container}>
+        <View style={ztyles.divider} />
+          <Text style={ztyles.title}>
+            Todo  <Text style={{fontWeight: "300", color: colors.blue}}> Lists </Text>
+          </Text>
+            <View style={ztyles.divider} />
+              <Button
+                text="Go back!"
+                icon="arrow-left"
+                style={ztyles.button}
+                onPress={navigateToWelcome}
+              />
+      </View>
+        )
+    }
+
+
+
+
+
+const ztyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#300001",
+    alignItems: "center",
+    justifyContent: "center"
+  },
+
+  divider: {
+    backgroundColor: colors.lightBlue,
+    height: 1,
+    flex: 1,
+    alignSelf: "center"
+  },
+
+  title: {
+    fontSize: 38,
+    fontWeight: "800",
+    color: colors.black,
+    paddingHorizontal: 64
+  },
+})
