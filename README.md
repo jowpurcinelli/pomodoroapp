@@ -37,6 +37,13 @@ Since it is an app made for mobiles, I am using the expo client!
 **App under development**
 
 
+<img src="./assets/logo.jpeg">
+
+
+
+
+
+
 
 
 
