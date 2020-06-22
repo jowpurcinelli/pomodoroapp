@@ -37,7 +37,7 @@ Since it is an app made for mobiles, I am using the expo client!
 **App under development**
 
 
-<img style=“max-width: 100px;”, “max-height: 100px;” src="./assets/logo.jpeg">
+<img src="./assets/logo.jpeg">
 
 
 
