@@ -39,6 +39,13 @@ function Routes() {
       <AppStack.Screen name="Congrats" component={Congrats} />
       <AppStack.Screen name="Schedule" component={Schedule} />
       <AppStack.Screen name="Todolist" component={Todolist} />
+      <AppStack.Screen name="Progress" component={Progress} />
+      <AppStack.Screen name="Profile" component={Profile} />
+      <AppStack.Screen name="Login" component={Login} />
+      <AppStack.Screen name="Register" component={Register} />
+      
+
+
     </AppStack.Navigator>
   );
 }
