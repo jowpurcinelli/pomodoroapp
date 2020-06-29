@@ -15,6 +15,10 @@ import Welcome from "./pages/Welcome";
 import Timer from "./pages/Timer";
 import Congrats from "./pages/Congrats";
 
+
+//  need to add new pages and progress comunication with todo list / timer / congrats /
+// create profile and login - register interaction
+
 function Routes() {
   return (
     <AppStack.Navigator
@@ -43,6 +47,7 @@ function Routes() {
       <AppStack.Screen name="Profile" component={Profile} />
       <AppStack.Screen name="Login" component={Login} />
       <AppStack.Screen name="Register" component={Register} />
+      
       
 
 
