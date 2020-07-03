@@ -5,6 +5,8 @@ import {
   TransitionSpecs,
   TransitionPresets,
 } from "@react-navigation/stack";
+// import { DrawerItem, DrawerContent, createDrawerNavigator } from "@react-navigation/drawer";
+//import { NavigationContainer } from "@react-navigation/native";
 
 const AppStack = createStackNavigator();
 
@@ -14,10 +16,12 @@ import Todolist from "./pages/TodoList";
 import Welcome from "./pages/Welcome";
 import Timer from "./pages/Timer";
 import Congrats from "./pages/Congrats";
+import Progress from "./pages/Progress";
+// import NavBar from "./pages/Navbar"
 
 
-//  need to add new pages and progress comunication with todo list / timer / congrats /
-// create profile and login - register interaction
+// const Drawer = createDrawerNavigator
+
 
 function Routes() {
   return (
@@ -38,15 +42,18 @@ function Routes() {
       }}
     >
      
+      
+      
+      
       <AppStack.Screen name="Welcome" component={Welcome} />
       <AppStack.Screen name="Timer" component={Timer} />
       <AppStack.Screen name="Congrats" component={Congrats} />
       <AppStack.Screen name="Schedule" component={Schedule} />
       <AppStack.Screen name="Todolist" component={Todolist} />
       <AppStack.Screen name="Progress" component={Progress} />
-      <AppStack.Screen name="Profile" component={Profile} />
+      {/* <AppStack.Screen name="Profile" component={Profile} />
       <AppStack.Screen name="Login" component={Login} />
-      <AppStack.Screen name="Register" component={Register} />
+      <AppStack.Screen name="Register" component={Register} /> */}
       
       
 
