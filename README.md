@@ -3,6 +3,7 @@ The Pomodoro Technique is a time management method developed by Francesco Cirill
 
 -------------------------------------------------------------------------------------------------
 
+
 That's My first React Native "real" Project, where I am using technologies I'm learning at the moment.
 At the moment I am using JS with some technogies like;
    React Native, Redux, Node,  Babel, ...
@@ -10,7 +11,9 @@ At the moment I am using JS with some technogies like;
    
    I'm leading the project. And the main objective of this is, for this app to become a certain timelime of my habilities, since i'm a junior developer right now. 
     Allowing, not only to learn with my own code,  but to show my improvements on the market and for the Network.
-
+    
+    
+# :tada: Contributing
 If you'd like to participate in this project, have any suggestions, recommendations, review or just wanna talk. Feel free to contact me.
 It's nice to have good friends aswell.
 
@@ -81,6 +84,6 @@ Next Updates coming soon:
   
   
   
-  <img src="./assets/logo.jpeg">
+  <img src="./assets/logo.jpeg" width="250px">
 
 
