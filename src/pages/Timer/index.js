@@ -42,6 +42,8 @@ export default function Timer() {
     }
   }, [secondsEllapsed, navigation]);
 
+//change the whole structure
+
   useEffect(() => {
     if (isPlaying) {
       const time = setInterval(() => {
