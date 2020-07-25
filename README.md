@@ -3,6 +3,7 @@ The Pomodoro Technique is a time management method developed by Francesco Cirill
 
 -------------------------------------------------------------------------------------------------
 
+
 That's My first React Native "real" Project, where I am using technologies I'm learning at the moment.
 At the moment I am using JS with some technogies like;
    React Native, Redux, Node,  Babel, ...
@@ -10,9 +11,34 @@ At the moment I am using JS with some technogies like;
    
    I'm leading the project. And the main objective of this is, for this app to become a certain timelime of my habilities, since i'm a junior developer right now. 
     Allowing, not only to learn with my own code,  but to show my improvements on the market and for the Network.
-
-    If you'd like to participate in this project, have any suggestions, recommendations, review or just wanna talk. Feel free to contact me.
+    
+    
+# :tada: Contributing
+If you'd like to participate in this project, have any suggestions, recommendations, review or just wanna talk. Feel free to contact me.
 It's nice to have good friends aswell.
+
+
+
+## Recently, I decided to start the hole app all over again. I will:
+#### ReStart the structure from the scratch and create each file nativly, first for android, then ios. I will not use expo anymore
+#### Design the new layouts and colors
+#### Create Signup-Login structure ()
+#### Create Auth structure 
+#### Create every import inside the app using TypeScript!
+#### Maybe ts for the routes aswell
+#### Deploy to come will use Heroku
+#### [Always] Hooks everywhere
+   
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -21,23 +47,16 @@ It's nice to have good friends aswell.
 ## Execute the app:
 
 This is an app developed in the React Native language.
-Since it is an app made for mobiles, I am using the expo client!
-  ------(Will be providing an external link soon)------
+Since it is an app made for mobiles, I 'was' using the expo client, `not anymore`
+ 
 
-1. Install `expo-cli` globally with NPM or Yarn;
-2. `git clone`  this repository;
-3. Acess the repository and execut `yarn` to install dependencies;
-4. Execute `yarn start` for Expo
-5. Smartphone app of Expo or Expo Client
-6. QRCode
-7. Enjoy it
 
 
 
 **App under development**
 
 
-<img src="./assets/logo.jpeg">
+
 
 
 
@@ -52,15 +71,19 @@ Since it is an app made for mobiles, I am using the expo client!
 
 Next Updates coming soon: 
 
-  -Schedule  (Activly coding)
+  -Schedule  [x]
   - New feature that will allow the user to create a ToDo item or list. (Next feature)
   
   - Alarm
   - Reminder
   - NotePad
-  - New app design
-  - New Images
+
   - Some interaction with `Spotify`
   - Who knows?...
+  
+  
+  
+  
+  <img src="./assets/logo.jpeg" width="250px">
 
 
