@@ -7,7 +7,7 @@ import { styles } from "./styles";
 export default function FAB({ name, onPress }) {
   return (
     <TouchableOpacity style={styles.container} onPress={onPress}>
-      <MaterialCommunityIcons name={name} size={30} color="#FFF" />
+      <MaterialCommunityIcons name={name} size={29} color="#FFF" />
     </TouchableOpacity>
   );
 }
