@@ -36,7 +36,7 @@ export default function Progress() {
       <Text style={styles.title}>Here you have access to your progress and your done shit</Text>
       <Text style={styles.text1}>My progress:</Text>
       <ProgressBar animated now={45} />
-      
+        <ProgressBar animated now={54} />
       <Text style={styles.text2}>{todoList}</Text>
       <Text style={styles.text3}>Time I spended focusing</Text>
       <Text style={styles.text4}>Stability</Text>
