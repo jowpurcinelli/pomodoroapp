@@ -5,7 +5,7 @@ The Pomodoro Technique is a time management method developed by Francesco Cirill
 
 
 That's My first React Native "real" Project, where I am using technologies I'm learning at the moment.
-At the moment I am using JS with some technogies like;
+At the moment I am using JS with some technologies like;
    React Native, Redux, Node,  Babel, ...
    Will use this app to learn and introduce my new skills to a real world project.
    
@@ -19,8 +19,8 @@ It's nice to have good friends aswell.
 
 
 
-## Recently, I decided to start the hole app all over again. I will:
-#### ReStart the structure from the scratch and create each file nativly, first for android, then ios. I will not use expo anymore
+## Recently, I decided to start the whole app all over again. I will:
+#### ReStart the structure from the scratch and create each file natively, first for android, then iOS. I will not use expo anymore
 #### Design the new layouts and colors
 #### Create Signup-Login structure ()
 #### Create Auth structure 
